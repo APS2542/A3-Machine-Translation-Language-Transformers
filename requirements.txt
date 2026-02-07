@@ -1,0 +1,14 @@
+torch>=2.0
+torchtext>=0.15
+pythainlp>=4.0
+sacremoses>=0.1.1
+sentencepiece>=0.1.99
+numpy
+pandas
+tqdm
+matplotlib
+seaborn
+scikit-learn
+dash
+dash-bootstrap-components
+
