@@ -5,18 +5,6 @@ This project is part of **NLP Assignment 3 – Make Your Own Machine Translation
 We implement a **Thai → English Machine Translation system** using a **Seq2Seq model with Additive Attention**, trained in PyTorch and deployed as a web application using **Dash**.
 
 ---
-
-## 📌 Features
-
-- Seq2Seq Encoder–Decoder architecture (GRU-based)
-- Additive (Bahdanau) Attention mechanism
-- Thai tokenization using **PyThaiNLP (newmm)**
-- Trained model checkpoint for inference
-- Interactive web demo using **Dash**
-- CPU-friendly (no GPU required)
-
----
-
 ## 🧩 Model Architecture
 
 ### Encoder
@@ -45,11 +33,6 @@ A3-Machine-Translation/
 ├── mt_attention_ckpt.pt    # Trained model checkpoint
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
-│
-├── data/
-│   ├── raw/                # Raw OpenSubtitles data
-│   └── processed/          # train / valid / test TSV files
-│
 ├── st126130_notebook_A3.ipynb  # Training & experiments notebook
 ```
 
@@ -105,7 +88,7 @@ Open your browser at:
 1. Enter a **Thai sentence** in the text area  
    Example:
    ```
-   ฉันรักประเทศไทย
+   ฉันรักประชาชน
    ```
 
 2. Click the **Translate** button
